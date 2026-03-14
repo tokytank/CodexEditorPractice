@@ -1,34 +1,38 @@
 ﻿{
-	"FileVersion": 3,
-	"EngineAssociation": "5.5",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "EngineProject",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "GameFeatures",
-			"Enabled": true
-		},
-		{
-			"Name": "TestMGF",
-			"Enabled": true
-		},
-		{
-			"Name": "TestMGFCPP",
-			"Enabled": true
-		}
-	]
+    "FileVersion":  3,
+    "EngineAssociation":  "5.5",
+    "Category":  "",
+    "Description":  "",
+    "Modules":  [
+                    {
+                        "Name":  "EngineProject",
+                        "Type":  "Runtime",
+                        "LoadingPhase":  "Default"
+                    }
+                ],
+    "Plugins":  [
+                    {
+                        "Name":  "ModelingToolsEditorMode",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "GameFeatures",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "TestMGF",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "TestMGFCPP",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "AssetGovernanceLab",
+                        "Enabled":  true
+                    }
+                ]
 }

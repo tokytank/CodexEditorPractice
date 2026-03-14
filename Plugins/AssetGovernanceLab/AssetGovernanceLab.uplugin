@@ -1,0 +1,25 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "Asset Governance Lab",
+	"Description": "An editor-focused plugin for auditing and managing project assets.",
+	"Category": "Editor",
+	"CreatedBy": "Codex",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AssetGovernanceRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "AssetGovernanceEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
