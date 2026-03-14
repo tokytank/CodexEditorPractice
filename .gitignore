@@ -1,0 +1,30 @@
+﻿# Unreal Engine generated folders
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# IDE and user-specific files
+/.idea/
+/.vs/
+/.vsconfig
+*.sln
+*.sln.DotSettings.user
+
+# Visual Studio generated files
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Unreal generated plugin folders
+/Plugins/**/Binaries/
+/Plugins/**/Intermediate/
+
+# Preserve vendored plugin contents while ignoring backed-up nested git metadata
+/Plugins/**/.git.nested-backup/
